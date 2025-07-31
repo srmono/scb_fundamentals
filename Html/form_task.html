@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 Form</title>
+  <style>
+    input:invalid {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form action="./welcome.html" method="get">
+   
+    First Name:
+    <input 
+      autofocus
+      type="text" 
+      name="firstName" 
+      required 
+      pattern="[A-Za-z]+" 
+      placeholder="Please enter your first name"><br><br>
+
+    Last Name:
+    <input type="text" name="lastName" required pattern="[A-Za-z]+" placeholder="Please enter your last name"><br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male" required>Male
+    <input type="radio" name="gender" value="Female">Female
+    <input type="radio" name="gender" value="Others">Others<br><br>
+
+    Languages known:
+    <input type="checkbox" name="lang" value="HTML">HTML
+    <input type="checkbox" name="lang" value="CSS">CSS
+    <input type="checkbox" name="lang" value="JS">JS<br><br>
+
+    Address:<br>
+    <textarea name="address" required></textarea><br><br>
+
+    Cities lived in:<br>
+    <select name="cities" multiple required>
+      <option value="Bangalore">Bangalore</option>
+      <option value="Mysore">Mysore</option>
+      <option value="Kerala">Kerala</option>
+      <option value="Chennai">Chennai</option>
+    </select><br><br>
+
+    Contact Number:
+    <input 
+      type="tel" 
+      name="contact" 
+      required 
+      pattern="\d{10}" 
+      placeholder="10-digit number"><br><br>
+
+    My favorite color is:
+    <input type="color" name="favcolor"><br><br>
+
+    Date is:
+    <input type="date" name="date" required><br><br>
+
+    Birthday is:
+    <input type="datetime-local" name="bdaytime" required><br><br>
+
+    Time is:
+    <input type="time" name="time" required><br><br>
+
+    Week is:
+    <input type="week" name="week" required><br><br>
+
+    Month is:
+    <input type="month" name="month" required><br><br>
+
+    Email ID:
+    <input type="email" name="email" required><br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>

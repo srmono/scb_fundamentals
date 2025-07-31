@@ -1,0 +1,131 @@
+/* div { background-color: aquamarine !important;} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 100;
+    font-style: normal;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#wrapper {background-color: goldenrod;}
+
+#main .box {background: tomato;}
+
+
+#boxmodel {
+    background-color: goldenrod;
+    width: 700px;
+    margin: 25px 15px 20px 10px;
+    padding: 10px 15px 12px;
+    border: 2px dotted tomato;
+}
+
+header {
+    background-color: goldenrod;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav {
+    width: 1360px;
+    margin: 0 auto; 
+}
+
+nav li { 
+    display: inline-block; 
+    background-color: tomato;
+    padding: 10px 15px;
+}
+
+#ln {
+    /* display: none; */
+    visibility:hidden;
+}
+nav li a:link{ 
+   color: azure;
+   text-decoration: none;
+   padding: 10px 15px;
+}
+
+nav li a:hover{ 
+    color: tomato;
+    text-decoration: none;
+    background-color: azure;
+ }
+
+ #pos_box { 
+    position: relative;
+    width: 500px; height: 400px; background-color: gold; margin: 0px auto;}
+
+
+ #pos_fix { 
+    position: fixed;
+    bottom: 100px;
+    left: 0;
+    width: 50px; height: 150px; padding: 10px; background-color: tomato; }
+
+ #pos_abs  { 
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 100px; height: 50px; padding: 10px; background-color: tomato; }
+
+
+
+
+
+
+
+
+
+
+
+
+
