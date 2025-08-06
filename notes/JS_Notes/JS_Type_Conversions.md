@@ -9,15 +9,15 @@ JavaScript is **dynamically typed**, which means variables can change types. Typ
 
 ## 1. **String Conversion**
 
-### ✅ Definition:
+###  Definition:
 
 Converting other data types (Number, Boolean, null, etc.) into a string.
 
-### ✅ Real-time Use Case:
+###  Real-time Use Case:
 
 When you want to **display data** to the user or **concatenate strings** in UI (e.g., `Hello, your score is 90`).
 
-### ✅ Explicit Conversion:
+###  Explicit Conversion:
 
 ```js
 String(123);        // "123"
@@ -26,7 +26,7 @@ true.toString();    // "true"
 null + ""           // "null"
 ```
 
-### ✅ Implicit Conversion:
+###  Implicit Conversion:
 
 ```js
 "User: " + 42        // "User: 42"
@@ -37,15 +37,15 @@ null + ""           // "null"
 
 ## 2. **Number Conversion**
 
-### ✅ Definition:
+###  Definition:
 
 Convert strings or other values into numbers.
 
-### ✅ Real-time Use Case:
+###  Real-time Use Case:
 
 When taking user input via a form, it's **usually a string**, but you want to **calculate totals or comparisons**.
 
-### ✅ Explicit Conversion:
+###  Explicit Conversion:
 
 ```js
 Number("123");     // 123
@@ -54,7 +54,7 @@ parseFloat("12.5") // 12.5
 +"123"             // 123 (Unary + operator)
 ```
 
-### ✅ Implicit Conversion:
+###  Implicit Conversion:
 
 ```js
 "10" * 2     // 20
@@ -67,15 +67,15 @@ null + 5     // 5
 
 ## 3. **Boolean Conversion**
 
-### ✅ Definition:
+###  Definition:
 
 Convert any value to `true` or `false`.
 
-### ✅ Real-time Use Case:
+###  Real-time Use Case:
 
 To evaluate **form validations**, **login status**, or **conditions in `if` blocks**.
 
-### ✅ Falsy Values (convert to `false`):
+###  Falsy Values (convert to `false`):
 
 * `0`
 * `""` (empty string)
@@ -84,7 +84,7 @@ To evaluate **form validations**, **login status**, or **conditions in `if` bloc
 * `NaN`
 * `false`
 
-### ✅ Examples:
+###  Examples:
 
 ```js
 Boolean(0);           // false
@@ -98,18 +98,18 @@ if ("user") { ... }   // executes because "user" is truthy
 
 ## 4. **Object to Primitive Conversion**
 
-### ✅ Definition:
+###  Definition:
 
 When objects are used in string/number contexts, JavaScript tries to convert them to primitive values using:
 
 * `valueOf()`
 * `toString()`
 
-### ✅ Real-time Use Case:
+###  Real-time Use Case:
 
 When **logging or alerting object info**, or doing math with custom objects.
 
-### ✅ Example:
+###  Example:
 
 ```js
 let user = {
@@ -134,11 +134,11 @@ console.log(amount + 100); // 600
 
 ## 5. **Symbol Conversion**
 
-### ✅ Note:
+###  Note:
 
 Symbols **cannot be implicitly converted** to strings or numbers.
 
-### ✅ Example:
+###  Example:
 
 ```js
 let sym = Symbol("id");
@@ -151,15 +151,15 @@ String(sym); // "Symbol(id)"
 
 ## 6. **Date Conversion**
 
-### ✅ Definition:
+###  Definition:
 
 Dates can be converted to strings or numbers.
 
-### ✅ Real-time Use Case:
+###  Real-time Use Case:
 
 To **display dates in readable format** or to **compare timestamps**.
 
-### ✅ Example:
+###  Example:
 
 ```js
 let date = new Date();

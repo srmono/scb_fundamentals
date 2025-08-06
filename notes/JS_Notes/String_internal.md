@@ -1,5 +1,5 @@
 
-### ✅ Code Concept: Convert Strings in an Array to Uppercase
+###  Code Concept: Convert Strings in an Array to Uppercase
 
 ```html
 <!DOCTYPE html>
@@ -30,7 +30,7 @@
 
 ---
 
-### 🧠 Explanation:
+###  Explanation:
 
 * `map()` is used to iterate through the array and apply `toUpperCase()` to each element.
 * `JSON.stringify()` is used to display the array in a readable format on the webpage.
@@ -76,7 +76,7 @@
 
 ---
 
-### 🧠 What's Happening:
+###  What's Happening:
 
 * We use a `for` loop to go through each string.
 * `toUpperCase()` changes it to uppercase.

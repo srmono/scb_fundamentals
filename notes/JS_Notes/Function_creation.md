@@ -2,7 +2,7 @@
 
 ---
 
-## ✅ 1. **Function Declaration (`function greetUser() {}`)**
+##  1. **Function Declaration (`function greetUser() {}`)**
 
 ### 🔷 Definition:
 
@@ -11,7 +11,7 @@ A **function declaration** creates a function with a name that can be called any
 ### 🔷 Example:
 
 ```js
-greetUser();  // ✅ This works due to hoisting
+greetUser();  //  This works due to hoisting
 
 function greetUser() {
   console.log("Welcome to our website!");
@@ -24,7 +24,7 @@ When you want to define a **reusable function** like showing a welcome message, 
 
 ---
 
-## ✅ 2. **Function Expression (`var calculateTotal = function() {}`)**
+##  2. **Function Expression (`var calculateTotal = function() {}`)**
 
 ### 🔷 Definition:
 
@@ -50,7 +50,7 @@ Useful when you want to define a function conditionally, pass it as an argument,
 
 ```js
 // Function Declaration
-console.log(addNumbers(10, 5));  // ✅ Works
+console.log(addNumbers(10, 5));  //  Works
 
 function addNumbers(a, b) {
   return a + b;
@@ -66,13 +66,13 @@ var subtractNumbers = function(a, b) {
 
 ---
 
-## ✅ Summary (Updated with Real Use Names)
+##  Summary (Updated with Real Use Names)
 
 | Feature            | `function greetUser() {}`                            | `var calculateTotal = function() {}`                 |
 | ------------------ | ---------------------------------------------------- | ---------------------------------------------------- |
-| Hoisting           | ✅ Fully hoisted (can call before defined)            | ❌ Not hoisted with function body                     |
+| Hoisting           |  Fully hoisted (can call before defined)            | ❌ Not hoisted with function body                     |
 | Name               | Fixed name (`greetUser`)                             | Variable can be renamed or reassigned                |
-| Use Before Declare | ✅ Yes                                                | ❌ No                                                 |
+| Use Before Declare |  Yes                                                | ❌ No                                                 |
 | Real Use Case      | Utility methods like `validateForm()`, `showAlert()` | Event handlers, callbacks like `onClick`, `onSubmit` |
 | Stack Traces       | Clear function name shows in debugger                | Shows as anonymous unless named explicitly           |
 

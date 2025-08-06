@@ -1,8 +1,8 @@
-# ✅ JavaScript `Number` – All Properties & Methods with Real-Time Examples, Definitions, and Use Cases
+#  JavaScript `Number` – All Properties & Methods with Real-Time Examples, Definitions, and Use Cases
 
 ---
 
-## 🔹 `Number.MAX_VALUE`
+##  `Number.MAX_VALUE`
 
 **Definition:**
 The largest number you can represent in JavaScript before getting `Infinity`.
@@ -20,7 +20,7 @@ console.log(huge > Number.MAX_VALUE); // true
 
 ---
 
-## 🔹 `Number.MIN_VALUE`
+##  `Number.MIN_VALUE`
 
 **Definition:**
 The smallest positive number (close to zero, not negative).
@@ -38,7 +38,7 @@ console.log(Number.MIN_VALUE); // 5e-324
 
 ---
 
-## 🔹 `Number.POSITIVE_INFINITY`
+##  `Number.POSITIVE_INFINITY`
 
 **Definition:**
 Returned when a number exceeds `MAX_VALUE` or `1 / 0`.
@@ -56,7 +56,7 @@ console.log(inf === Number.POSITIVE_INFINITY); // true
 
 ---
 
-## 🔹 `Number.NEGATIVE_INFINITY`
+##  `Number.NEGATIVE_INFINITY`
 
 **Definition:**
 Returned on negative overflow or `-1 / 0`.
@@ -73,7 +73,7 @@ console.log(negInf); // -Infinity
 
 ---
 
-## 🔹 `Number.NaN`
+##  `Number.NaN`
 
 **Definition:**
 "Not a Number" — occurs when a numeric operation fails.
@@ -90,7 +90,7 @@ console.log(Number.isNaN(badMath)); // true
 
 ---
 
-## 🔹 `Number.EPSILON`
+##  `Number.EPSILON`
 
 **Definition:**
 Smallest possible difference between two numbers. Used to compare floating-point values.
@@ -109,7 +109,7 @@ console.log(Math.abs(a - b) < Number.EPSILON); // true ✅
 
 ---
 
-## 🔹 `Number.MAX_SAFE_INTEGER`
+##  `Number.MAX_SAFE_INTEGER`
 
 **Definition:**
 The maximum integer value JavaScript can safely represent (2^53 - 1).
@@ -126,7 +126,7 @@ console.log(Number.isSafeInteger(id)); // false
 
 ---
 
-## 🔹 `Number.MIN_SAFE_INTEGER`
+##  `Number.MIN_SAFE_INTEGER`
 
 **Definition:**
 The minimum safe integer in JavaScript (-(2^53 - 1)).
@@ -147,7 +147,7 @@ console.log(Number.isSafeInteger(value)); // false
 
 ---
 
-## 🔹 `Number.isNaN(value)`
+##  `Number.isNaN(value)`
 
 **Definition:**
 Checks whether a value is exactly `NaN`.
@@ -164,7 +164,7 @@ console.log(Number.isNaN(NaN)); // true
 
 ---
 
-## 🔹 `Number.isFinite(value)`
+##  `Number.isFinite(value)`
 
 **Definition:**
 Returns true if value is a number and not `Infinity`/`NaN`.
@@ -181,7 +181,7 @@ console.log(Number.isFinite(Infinity)); // false
 
 ---
 
-## 🔹 `Number.isInteger(value)`
+##  `Number.isInteger(value)`
 
 **Definition:**
 Checks whether the value is an integer.
@@ -198,7 +198,7 @@ console.log(Number.isInteger(10.5)); // false
 
 ---
 
-## 🔹 `Number.isSafeInteger(value)`
+##  `Number.isSafeInteger(value)`
 
 **Definition:**
 Checks if value is within safe integer range.
@@ -215,7 +215,7 @@ console.log(Number.isSafeInteger(unsafe)); // false
 
 ---
 
-## 🔹 `Number.parseInt(string)`
+##  `Number.parseInt(string)`
 
 **Definition:**
 Parses a string and returns an integer.
@@ -232,7 +232,7 @@ console.log(Number.parseInt(size)); // 42
 
 ---
 
-## 🔹 `Number.parseFloat(string)`
+##  `Number.parseFloat(string)`
 
 **Definition:**
 Parses and returns a floating-point number.
@@ -249,11 +249,11 @@ console.log(Number.parseFloat(price)); // 199.99
 
 ---
 
-# 🧠 Number Instance Methods
+#  Number Instance Methods
 
 ---
 
-## 🔹 `.toFixed(digits)`
+##  `.toFixed(digits)`
 
 **Definition:**
 Formats a number using fixed decimals.
@@ -270,7 +270,7 @@ console.log(price.toFixed(2)); // "1234.57"
 
 ---
 
-## 🔹 `.toExponential(digits)`
+##  `.toExponential(digits)`
 
 **Definition:**
 Returns exponential (scientific) notation.
@@ -287,7 +287,7 @@ console.log(big.toExponential()); // "1.234567e+6"
 
 ---
 
-## 🔹 `.toPrecision(digits)`
+##  `.toPrecision(digits)`
 
 **Definition:**
 Formats number to specified total number of digits.
@@ -304,7 +304,7 @@ console.log(val.toPrecision(4)); // "99.12"
 
 ---
 
-## 🔹 `.toLocaleString(locale, options)`
+##  `.toLocaleString(locale, options)`
 
 **Definition:**
 Returns locale-specific string (like currency).
@@ -321,7 +321,7 @@ console.log(money.toLocaleString("en-IN")); // "12,34,567.89"
 
 ---
 
-## 🔹 `.toString(radix)`
+##  `.toString(radix)`
 
 **Definition:**
 Converts a number to a string in given base.
@@ -339,7 +339,7 @@ console.log(n.toString(2));  // "11111111" (binary)
 
 ---
 
-## 🔹 `.valueOf()`
+##  `.valueOf()`
 
 **Definition:**
 Returns the primitive value of a number object.
@@ -360,7 +360,7 @@ console.log(x.valueOf()); // 42
 
 ---
 
-### ✅ Float Comparison
+###  Float Comparison
 
 ```js
 function areEqual(a, b) {
@@ -370,7 +370,7 @@ function areEqual(a, b) {
 
 ---
 
-### ✅ Safe Division
+###  Safe Division
 
 ```js
 function safeDivide(a, b) {
@@ -380,7 +380,7 @@ function safeDivide(a, b) {
 
 ---
 
-### ✅ Input Validation
+###  Input Validation
 
 ```js
 function isValidNumber(val) {
@@ -426,7 +426,7 @@ function isValidNumber(val) {
 
 ---
 
-### ✅ **Real-Time Examples**
+###  **Real-Time Examples**
 
 Here are **quick snippets** for real-world usage:
 

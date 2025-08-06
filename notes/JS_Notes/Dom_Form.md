@@ -1,11 +1,11 @@
 ## Goal 
-✅ Creating and displaying an array of strings as a list
-✅ Validating a name input field to allow **only alphabets**
-✅ Showing an error message next to the input field if invalid
+ Creating and displaying an array of strings as a list
+ Validating a name input field to allow **only alphabets**
+ Showing an error message next to the input field if invalid
 
 ---
 
-### ✅ What it does:
+###  What it does:
 
 1. Displays an array of strings as a list on the page.
 2. Takes user input in a textbox (for name).
@@ -14,7 +14,7 @@
 
 ---
 
-### ✅ Full Code (HTML + JavaScript)
+###  Full Code (HTML + JavaScript)
 
 ```html
 <!DOCTYPE html>
@@ -87,7 +87,7 @@
 
 ---
 
-### 📌 Notes:
+###  Notes:
 
 * **No ES6**: This uses only `var`, basic loops, and simple functions.
 * **Validation logic**: Regex `/^[A-Za-z]+$/` checks that only letters are entered.
@@ -98,13 +98,13 @@
 
 ## Goal With ES6
 
-✅ Creating and displaying an array of strings as a list
-✅ Validating a name input field to allow **only alphabets**
-✅ Showing an error message next to the input field if invalid
+ Creating and displaying an array of strings as a list
+ Validating a name input field to allow **only alphabets**
+ Showing an error message next to the input field if invalid
 
 ---
 
-### ✅ Full Code: DOM and Form Validation Hands-on
+###  Full Code: DOM and Form Validation Hands-on
 
 ```html
 <!DOCTYPE html>

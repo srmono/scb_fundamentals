@@ -1,4 +1,4 @@
-### ✅ Pure HTML5 Features:
+###  Pure HTML5 Features:
 
 * Only alphabet input using `pattern`
 * 10-digit phone number using `pattern`
@@ -114,7 +114,7 @@
 
 Here's a complete HTML5 form based on the requirements and the example shown in your screenshot:
 
-### ✅ Features Covered:
+###  Features Covered:
 
 * First/Last name: Only alphabets
 * Contact: 10 digits only

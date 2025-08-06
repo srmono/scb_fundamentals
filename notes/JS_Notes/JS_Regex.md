@@ -14,7 +14,7 @@ In JavaScript, regex is often used with:
 
 ---
 
-## ✅ Step-by-Step: Basic Components
+##  Step-by-Step: Basic Components
 
 ### 1. **Creating a Regular Expression**
 
@@ -96,7 +96,7 @@ console.log(str.match(re)); // ["Hello", "hello"]
 
 ---
 
-## 🧪 Real-Time Examples
+##  Real-Time Examples
 
 ### Example 1: **Check if email is valid**
 
@@ -141,7 +141,7 @@ console.log(re.test(phone)); // true
 ### 1. **Check if a string contains only letters**
 
 ```js
-// ✅ Explanation: ^[a-zA-Z]+$ means start to end must be letters only (no digits, no spaces)
+//  Explanation: ^[a-zA-Z]+$ means start to end must be letters only (no digits, no spaces)
 let str = "HelloWorld";
 let re = /^[a-zA-Z]+$/;
 console.log(re.test(str)); // true
@@ -152,7 +152,7 @@ console.log(re.test(str)); // true
 ### 2. **Check if a string contains only numbers**
 
 ```js
-// ✅ Explanation: ^\d+$ means all digits from start to end
+//  Explanation: ^\d+$ means all digits from start to end
 let str = "123456";
 let re = /^\d+$/;
 console.log(re.test(str)); // true
@@ -163,7 +163,7 @@ console.log(re.test(str)); // true
 ### 3. **Check if a string is alphanumeric**
 
 ```js
-// ✅ Explanation: allows letters and digits only (no spaces or special characters)
+//  Explanation: allows letters and digits only (no spaces or special characters)
 let str = "User123";
 let re = /^[a-zA-Z0-9]+$/;
 console.log(re.test(str)); // true
@@ -174,7 +174,7 @@ console.log(re.test(str)); // true
 ### 4. **Match all words in a sentence**
 
 ```js
-// ✅ Explanation: \b\w+\b means word boundary + one or more word characters
+//  Explanation: \b\w+\b means word boundary + one or more word characters
 let sentence = "I love JavaScript!";
 let words = sentence.match(/\b\w+\b/g);
 console.log(words); // ["I", "love", "JavaScript"]
@@ -185,7 +185,7 @@ console.log(words); // ["I", "love", "JavaScript"]
 ### 5. **Match all numbers (including decimals)**
 
 ```js
-// ✅ Explanation: \d+(\.\d+)? matches integers and decimals
+//  Explanation: \d+(\.\d+)? matches integers and decimals
 let data = "Price: 45.99 and 100 and 3.5";
 let nums = data.match(/\d+(\.\d+)?/g);
 console.log(nums); // ["45.99", "100", "3.5"]
@@ -196,7 +196,7 @@ console.log(nums); // ["45.99", "100", "3.5"]
 ### 6. **Validate a simple username (3–15 chars, letters, digits, underscore)**
 
 ```js
-// ✅ Explanation: ^\w{3,15}$ = word characters, 3 to 15 long
+//  Explanation: ^\w{3,15}$ = word characters, 3 to 15 long
 let username = "user_123";
 let re = /^\w{3,15}$/;
 console.log(re.test(username)); // true
@@ -207,7 +207,7 @@ console.log(re.test(username)); // true
 ### 7. **Match all capitalized words**
 
 ```js
-// ✅ Explanation: \b[A-Z][a-z]* matches words starting with capital letter
+//  Explanation: \b[A-Z][a-z]* matches words starting with capital letter
 let str = "Alice and Bob went to New York";
 let result = str.match(/\b[A-Z][a-z]*/g);
 console.log(result); // ["Alice", "Bob", "New", "York"]
@@ -218,7 +218,7 @@ console.log(result); // ["Alice", "Bob", "New", "York"]
 ### 8. **Find duplicate words (like “the the”)**
 
 ```js
-// ✅ Explanation: \b(\w+)\s+\1\b uses backreference to detect repetition
+//  Explanation: \b(\w+)\s+\1\b uses backreference to detect repetition
 let str = "It was the the best day.";
 let re = /\b(\w+)\s+\1\b/;
 console.log(re.test(str)); // true
@@ -229,7 +229,7 @@ console.log(re.test(str)); // true
 ### 9. **Validate Hex Color Code**
 
 ```js
-// ✅ Explanation: starts with # and then 3 or 6 hex digits
+//  Explanation: starts with # and then 3 or 6 hex digits
 let color = "#FF5733";
 let re = /^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/;
 console.log(re.test(color)); // true
@@ -240,7 +240,7 @@ console.log(re.test(color)); // true
 ### 10. **Extract domain name from URL**
 
 ```js
-// ✅ Explanation: looks for the domain after https?:// and before /
+//  Explanation: looks for the domain after https?:// and before /
 let url = "https://www.example.com/page";
 let match = url.match(/^https?:\/\/([^\/]+)/);
 console.log(match[1]); // "www.example.com"
@@ -251,7 +251,7 @@ console.log(match[1]); // "www.example.com"
 ### 11. **Replace all multiple spaces with one**
 
 ```js
-// ✅ Explanation: \s+ means 1 or more whitespace → replace with single space
+//  Explanation: \s+ means 1 or more whitespace → replace with single space
 let messy = "This   has   too   many   spaces.";
 let clean = messy.replace(/\s+/g, " ");
 console.log(clean); // "This has too many spaces."
@@ -262,7 +262,7 @@ console.log(clean); // "This has too many spaces."
 ### 12. **Mask Credit Card Numbers (show only last 4)**
 
 ```js
-// ✅ Explanation: \d(?=\d{4}) matches all digits except the last 4
+//  Explanation: \d(?=\d{4}) matches all digits except the last 4
 let card = "1234567812345678";
 let masked = card.replace(/\d(?=\d{4})/g, "*");
 console.log(masked); // "************5678"
@@ -273,7 +273,7 @@ console.log(masked); // "************5678"
 ### 13. **Find file extensions**
 
 ```js
-// ✅ Explanation: \.\w+$ matches last dot and word characters
+//  Explanation: \.\w+$ matches last dot and word characters
 let file = "report.pdf";
 let ext = file.match(/\.\w+$/);
 console.log(ext[0]); // ".pdf"
@@ -284,7 +284,7 @@ console.log(ext[0]); // ".pdf"
 ### 14. **Validate IPv4 Address**
 
 ```js
-// ✅ Explanation: Checks for 4 groups of 1–3 digits, separated by .
+//  Explanation: Checks for 4 groups of 1–3 digits, separated by .
 let ip = "192.168.1.1";
 let re = /^(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(\.(?!$)){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)$/;
 console.log(re.test(ip)); // true
@@ -295,7 +295,7 @@ console.log(re.test(ip)); // true
 ### 15. **Extract YouTube video ID from URL**
 
 ```js
-// ✅ Explanation: Captures ID from standard or short YouTube URLs
+//  Explanation: Captures ID from standard or short YouTube URLs
 let url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 let match = url.match(/(?:v=|\/)([0-9A-Za-z_-]{11})/);
 console.log(match[1]); // "dQw4w9WgXcQ"
@@ -306,7 +306,7 @@ console.log(match[1]); // "dQw4w9WgXcQ"
 ### 16. **Count number of vowels in a sentence**
 
 ```js
-// ✅ Explanation: Match all vowels globally and count them
+//  Explanation: Match all vowels globally and count them
 let text = "Hello World!";
 let vowels = text.match(/[aeiou]/gi);
 console.log(vowels.length); // 3
@@ -317,7 +317,7 @@ console.log(vowels.length); // 3
 ### 17. **Remove all non-letter characters**
 
 ```js
-// ✅ Explanation: [^a-zA-Z] matches anything that's not a letter
+//  Explanation: [^a-zA-Z] matches anything that's not a letter
 let dirty = "Hi! I'm #1.";
 let cleaned = dirty.replace(/[^a-zA-Z]/g, "");
 console.log(cleaned); // "HiIm"
@@ -328,7 +328,7 @@ console.log(cleaned); // "HiIm"
 ### 18. **Check if a string ends with .jpg or .png**
 
 ```js
-// ✅ Explanation: use $ to anchor the end
+//  Explanation: use $ to anchor the end
 let filename = "image.jpg";
 let re = /\.(jpg|png)$/i;
 console.log(re.test(filename)); // true
@@ -339,7 +339,7 @@ console.log(re.test(filename)); // true
 ### 19. **Split sentence into words (ignore punctuation)**
 
 ```js
-// ✅ Explanation: Match all words only
+//  Explanation: Match all words only
 let sentence = "Wow! This is amazing, right?";
 let words = sentence.match(/\b\w+\b/g);
 console.log(words); // ["Wow", "This", "is", "amazing", "right"]
@@ -350,7 +350,7 @@ console.log(words); // ["Wow", "This", "is", "amazing", "right"]
 ### 20. **Escape special regex characters in a string**
 
 ```js
-// ✅ Explanation: replace all regex symbols with escaped versions
+//  Explanation: replace all regex symbols with escaped versions
 let input = "This is a (test).";
 let escaped = input.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 console.log(escaped); // "This is a \(test\)\."
@@ -358,7 +358,7 @@ console.log(escaped); // "This is a \(test\)\."
 
 ---
 
-## ✅ That's 20 Regex Examples (Each With Purpose + Code)
+##  That's 20 Regex Examples (Each With Purpose + Code)
 
 These cover:
 
@@ -369,7 +369,7 @@ These cover:
 
 
 
-## 💡 Tips for Beginners
+##    Tips for Beginners
 
 1. **Start simple**: Use `.test()` to experiment.
 2. **Use online tools**: Like [regex101.com](https://regex101.com/) – shows matches, explanations.

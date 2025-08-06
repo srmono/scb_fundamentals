@@ -2,7 +2,7 @@ ES6 concept with simple and practical use cases:
 
 ---
 
-### ✅ 1. `let` and `const` Keywords
+###  1. `let` and `const` Keywords
 
 ```js
 let age = 25;        // can be reassigned
@@ -16,7 +16,7 @@ console.log(`Name: ${name}, Age: ${age}`);
 
 ---
 
-### ✅ 2. Arrow Functions
+###  2. Arrow Functions
 
 ```js
 // Traditional function
@@ -32,7 +32,7 @@ console.log(greetUser("Hamsika"));
 
 ---
 
-### ✅ 3. Class and Object
+###  3. Class and Object
 
 ```js
 class Car {
@@ -52,7 +52,7 @@ console.log(myCar.start());
 
 ---
 
-### ✅ 4. Destructuring
+###  4. Destructuring
 
 ```js
 const user = {
@@ -67,7 +67,7 @@ console.log(`Username: ${username}, Age: ${age}`);
 
 ---
 
-### ✅ 5. Spread Operator
+###  5. Spread Operator
 
 ```js
 const fruits = ["apple", "banana"];
@@ -79,7 +79,7 @@ console.log(moreFruits);
 
 ---
 
-### ✅ 6. Promises
+###  6. Promises
 
 ```js
 const fetchData = () => {
@@ -95,7 +95,7 @@ fetchData().then((msg) => console.log(msg));
 
 ---
 
-### ✅ 7. The Fetch API
+###  7. The Fetch API
 
 ```js
 // Simple GET request
@@ -107,7 +107,7 @@ fetch("https://jsonplaceholder.typicode.com/posts/1")
 
 ---
 
-### ✅ 8. Import and Export
+###  8. Import and Export
 
 **mathUtils.js**
 
@@ -125,7 +125,7 @@ import { add } from './mathUtils.js';
 console.log(add(5, 3)); // Output: 8
 ```
 
-> 📝 Make sure to use `type="module"` in HTML or a bundler like Webpack/Vite for import/export.
+>  Make sure to use `type="module"` in HTML or a bundler like Webpack/Vite for import/export.
 
 
 ---
@@ -134,7 +134,7 @@ console.log(add(5, 3)); // Output: 8
 
 ---
 
-### ✅ **`es6-demo.html`**
+###  **`es6-demo.html`**
 
 ```html
 <!DOCTYPE html>
@@ -221,7 +221,7 @@ console.log(add(5, 3)); // Output: 8
     const getData = () => {
       return new Promise((resolve) => {
         setTimeout(() => {
-          resolve("✅ Promise resolved after 2 sec");
+          resolve(" Promise resolved after 2 sec");
         }, 2000);
       });
     };

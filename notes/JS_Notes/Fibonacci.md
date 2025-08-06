@@ -1,7 +1,7 @@
 
-### ✅ Task 1: Display the first 10 Fibonacci numbers
+###  Task 1: Display the first 10 Fibonacci numbers
 
-### ✅ Task 2: Display the multiplication table of 8
+###  Task 2: Display the multiplication table of 8
 
 ---
 
@@ -61,7 +61,7 @@
 
 ---
 
-### 🧠 Explanation
+###  Explanation
 
 * **No ES6 or map** is used — only basic loops, variables, and DOM manipulation.
 * Functions:

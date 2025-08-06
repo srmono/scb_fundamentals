@@ -2,7 +2,7 @@
 
 ---
 
-## 🔹 1. **Basic Syntax**
+##  1. **Basic Syntax**
 
 ```css
 selector {
@@ -12,7 +12,7 @@ selector {
 
 ---
 
-## 🔹 2. **Selectors**
+##  2. **Selectors**
 
 ### **Basic Selectors**
 
@@ -42,7 +42,7 @@ img[alt~="logo"]
 
 ---
 
-## 🔹 3. **Colors**
+##  3. **Colors**
 
 ```css
 color: red;
@@ -54,7 +54,7 @@ background-color: transparent;
 
 ---
 
-## 🔹 4. **Text Styling**
+##  4. **Text Styling**
 
 ```css
 color: #333;
@@ -71,7 +71,7 @@ line-height: 1.5;
 
 ---
 
-## 🔹 5. **Box Model**
+##  5. **Box Model**
 
 ```css
 width: 100px;
@@ -84,7 +84,7 @@ box-sizing: border-box;  /* Includes padding & border in size */
 
 ---
 
-## 🔹 6. **Display & Positioning**
+##  6. **Display & Positioning**
 
 ```css
 display: block;
@@ -106,7 +106,7 @@ z-index: 100;
 
 ---
 
-## 🔹 7. **Flexbox**
+##  7. **Flexbox**
 
 ```css
 display: flex;
@@ -119,7 +119,7 @@ gap: 10px;
 
 ---
 
-## 🔹 8. **CSS Grid**
+##  8. **CSS Grid**
 
 ```css
 display: grid;
@@ -133,7 +133,7 @@ place-items: center;
 
 ---
 
-## 🔹 9. **Backgrounds**
+##  9. **Backgrounds**
 
 ```css
 background-color: #f0f0f0;
@@ -146,7 +146,7 @@ background-attachment: fixed;
 
 ---
 
-## 🔹 10. **Borders & Outlines**
+##  10. **Borders & Outlines**
 
 ```css
 border: 1px solid #000;
@@ -159,7 +159,7 @@ outline-offset: 5px;
 
 ---
 
-## 🔹 11. **Transitions & Animations**
+##  11. **Transitions & Animations**
 
 ### Transitions
 
@@ -183,7 +183,7 @@ transition-property: background-color, transform;
 
 ---
 
-## 🔹 12. **Transformations**
+##  12. **Transformations**
 
 ```css
 transform: translateX(100px);
@@ -194,7 +194,7 @@ transform: skew(10deg, 20deg);
 
 ---
 
-## 🔹 13. **Opacity & Visibility**
+##  13. **Opacity & Visibility**
 
 ```css
 opacity: 0.5;
@@ -204,7 +204,7 @@ display: none;
 
 ---
 
-## 🔹 14. **Media Queries (Responsive Design)**
+##  14. **Media Queries (Responsive Design)**
 
 ```css
 @media (max-width: 768px) {
@@ -216,7 +216,7 @@ display: none;
 
 ---
 
-## 🔹 15. **CSS Variables (Custom Properties)**
+##  15. **CSS Variables (Custom Properties)**
 
 ```css
 :root {
@@ -232,7 +232,7 @@ div {
 
 ---
 
-## 🔹 16. **Pseudo-Classes**
+##  16. **Pseudo-Classes**
 
 ```css
 a:hover          /* When mouse hovers */
@@ -245,7 +245,7 @@ li:nth-child(2)  /* 2nd item */
 
 ---
 
-## 🔹 17. **Pseudo-Elements**
+##  17. **Pseudo-Elements**
 
 ```css
 p::before {
@@ -261,7 +261,7 @@ h1::first-letter {
 
 ---
 
-## 🔹 18. **Shorthand Properties**
+##  18. **Shorthand Properties**
 
 ```css
 margin: 10px 20px;          /* top-bottom left-right */
@@ -273,7 +273,7 @@ background: #fff url('bg.png') no-repeat center;
 
 ---
 
-## 🔹 19. **Advanced Techniques**
+##  19. **Advanced Techniques**
 
 * **Object Fit / Position** (for images):
 
@@ -299,7 +299,7 @@ background: #fff url('bg.png') no-repeat center;
 
 ---
 
-## 🔹 20. **Best Practices**
+##  20. **Best Practices**
 
 * Keep CSS modular and maintainable.
 * Use semantic class names (e.g., `.btn-primary`).

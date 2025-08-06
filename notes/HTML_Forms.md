@@ -2,7 +2,7 @@
 
 ---
 
-## 🔹 1. **Basic Form Structure**
+##  1. **Basic Form Structure**
 
 ```html
 <form action="/submit" method="POST">
@@ -16,7 +16,7 @@
 
 ---
 
-## 🔹 2. **Form Elements**
+##  2. **Form Elements**
 
 ### **Text Inputs**
 
@@ -69,7 +69,7 @@
 
 ---
 
-## 🔹 3. **Check Boxes & Radio Buttons**
+##  3. **Check Boxes & Radio Buttons**
 
 ```html
 <!-- Checkbox -->
@@ -84,7 +84,7 @@
 
 ---
 
-## 🔹 4. **File Upload**
+##  4. **File Upload**
 
 ```html
 <input type="file" name="resume" accept=".pdf,.docx">
@@ -95,7 +95,7 @@
 
 ---
 
-## 🔹 5. **Select Dropdown**
+##  5. **Select Dropdown**
 
 ```html
 <select name="country" required>
@@ -116,7 +116,7 @@
 
 ---
 
-## 🔹 6. **Textarea**
+##  6. **Textarea**
 
 ```html
 <textarea name="message" rows="4" cols="50" placeholder="Type here..."></textarea>
@@ -124,7 +124,7 @@
 
 ---
 
-## 🔹 7. **Buttons**
+##  7. **Buttons**
 
 ```html
 <button type="submit">Submit</button>
@@ -134,7 +134,7 @@
 
 ---
 
-## 🔹 8. **Form Attributes**
+##  8. **Form Attributes**
 
 ### `<form>` Attributes
 
@@ -149,7 +149,7 @@
 
 ---
 
-## 🔹 9. **Input Attributes**
+##  9. **Input Attributes**
 
 | Attribute      | Description                             |
 | -------------- | --------------------------------------- |
@@ -173,7 +173,7 @@
 
 ---
 
-## 🔹 10. **Labels**
+##  10. **Labels**
 
 ```html
 <label for="email">Email:</label>
@@ -184,7 +184,7 @@
 
 ---
 
-## 🔹 11. **Fieldset & Legend**
+##  11. **Fieldset & Legend**
 
 ```html
 <fieldset>
@@ -197,7 +197,7 @@
 
 ---
 
-## 🔹 12. **Datalist (Input Suggestions)**
+##  12. **Datalist (Input Suggestions)**
 
 ```html
 <input list="browsers" name="browser">
@@ -210,7 +210,7 @@
 
 ---
 
-## 🔹 13. **Hidden Input**
+##  13. **Hidden Input**
 
 ```html
 <input type="hidden" name="token" value="12345">
@@ -220,7 +220,7 @@
 
 ---
 
-## 🔹 14. **Form Validation**
+##  14. **Form Validation**
 
 ### Built-in Validation
 
@@ -249,7 +249,7 @@
 
 ---
 
-## 🔹 15. **Accessibility Best Practices**
+##  15. **Accessibility Best Practices**
 
 * Always pair `<label>` with inputs.
 * Use `aria-label` or `aria-describedby` where needed.
@@ -258,7 +258,7 @@
 
 ---
 
-## 🔹 16. **Form Submission Techniques**
+##  16. **Form Submission Techniques**
 
 * **Standard HTML POST/GET**
 * **AJAX Submission**
@@ -278,7 +278,7 @@ form.addEventListener("submit", async (e) => {
 
 ---
 
-## 🔹 17. **Common Pitfalls to Avoid**
+##  17. **Common Pitfalls to Avoid**
 
 * Forgetting `name` attributes (data won't submit).
 * Using `id` without linking it to `label`.
@@ -288,7 +288,7 @@ form.addEventListener("submit", async (e) => {
 
 ---
 
-## 🔹 **HTML Input Validation Using `pattern` Attribute**
+##  **HTML Input Validation Using `pattern` Attribute**
 
 The `pattern` attribute allows you to specify a **regular expression** (regex) that the input value must match to be considered valid.
 
@@ -296,7 +296,7 @@ The `pattern` attribute allows you to specify a **regular expression** (regex) t
 
 ---
 
-### ✅ **Basic Syntax**
+###  **Basic Syntax**
 
 ```html
 <input type="text" pattern="[A-Za-z]{3,}" title="At least 3 letters">
@@ -307,7 +307,7 @@ The `pattern` attribute allows you to specify a **regular expression** (regex) t
 
 ---
 
-### 🔹 **Common `pattern` Examples**
+###  **Common `pattern` Examples**
 
 #### 1. **Alphabet Only (3+ letters)**
 
@@ -361,7 +361,7 @@ The `pattern` attribute allows you to specify a **regular expression** (regex) t
 
 ---
 
-### 💡 Example: Full Pattern Validation Input
+###    Example: Full Pattern Validation Input
 
 ```html
 <form>

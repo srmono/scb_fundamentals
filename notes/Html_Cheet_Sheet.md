@@ -45,7 +45,7 @@
 
 ---
 
-### 📝 Text Formatting
+###  Text Formatting
 
 ```html
 <h1>Heading 1</h1>
@@ -89,7 +89,7 @@
 
 ---
 
-### ✅ Lists
+###  Lists
 
 ```html
 <!-- Unordered List -->
@@ -152,7 +152,7 @@
 
 ---
 
-### 🧠 Semantic HTML5
+###  Semantic HTML5
 
 ```html
 <figure>
@@ -223,7 +223,7 @@ data-*=""        <!-- Custom data attribute -->
 
 ---
 
-### 🧪 Advanced: Custom Elements (Web Components)
+###  Advanced: Custom Elements (Web Components)
 
 ```html
 <my-custom-element></my-custom-element>
@@ -241,9 +241,9 @@ data-*=""        <!-- Custom data attribute -->
 
 ### 🛠️ Modern HTML Best Practices
 
-* ✅ Use semantic tags for structure (`<main>`, `<nav>`, etc.)
-* ✅ Always include `alt` attributes for images.
-* ✅ Use `label` tags for all form controls.
-* ✅ Include `<meta name="viewport">` for responsive design.
-* ✅ Use `aria-*` and roles for accessibility.
+*  Use semantic tags for structure (`<main>`, `<nav>`, etc.)
+*  Always include `alt` attributes for images.
+*  Use `label` tags for all form controls.
+*  Include `<meta name="viewport">` for responsive design.
+*  Use `aria-*` and roles for accessibility.
 
